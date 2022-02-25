@@ -1,0 +1,20 @@
+pipeline {
+    agent any 
+    stages {
+        stage('learn') { 
+            steps {
+                echo "first commit"
+            }
+        }
+        stage('practice') { 
+            steps {
+                echo "second commit"
+            }
+        }
+        stage('work') { 
+            steps {
+                echo "third commit"
+            }
+        }
+    }
+}
